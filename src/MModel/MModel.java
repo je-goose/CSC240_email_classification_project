@@ -1,6 +1,6 @@
 package MModel;
 
-import DataHandling.ProcessedDataSet;
+import DataHandling.DataSet;
 
 /**
  * Project name: email_classification_project
@@ -11,7 +11,11 @@ import DataHandling.ProcessedDataSet;
  * Modified on:
  */
 public abstract class MModel {
-    protected ProcessedDataSet pDataSet;
+    protected DataSet trainingData;
+    protected DataSet testingData;
+    protected DataSet validationData;
 
     public abstract void train();
+
+    public abstract void evaluateModel();
 }

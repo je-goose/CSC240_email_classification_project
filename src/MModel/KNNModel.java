@@ -1,6 +1,6 @@
 package MModel;
 
-import DataHandling.ProcessedDataSet;
+import DataHandling.*;
 
 import java.util.Map;
 
@@ -16,7 +16,9 @@ public class KNNModel extends MModel {
     protected int k;
 
     public KNNModel(ProcessedDataSet dataSetIn, int k) {
-        this.pDataSet = dataSetIn;
+        this.trainingData = dataSetIn.getTrainingSet();
+        this.testingData = dataSetIn.getTestSet();
+        this.validationData = dataSetIn.getValidationSet();
         this.k = k;
     }
 
@@ -25,9 +27,17 @@ public class KNNModel extends MModel {
 
     }
 
+    @Override
+    public void evaluateModel() {
+        // Implement the evaluation logic here
+        System.out.println("Accuracy: " + getAccuracy());
+        System.out.println("Precision: " + getPrecision());
+        System.out.println("Confusion Matrix: " + getConfusionMatrix());
+    }
+
     public double calculateEuclideanDistance(int index1, int index2) {
-        Map<String, Integer> vector1 = pDataSet.getTrainingSet().getField(index1).getVocabularyVector();
-        Map<String, Integer> vector2 = pDataSet.getTrainingSet().getField(index2).getVocabularyVector();
+        Map<String, Integer> vector1 = trainingData.getField(index1).getVocabularyVector();
+        Map<String, Integer> vector2 = trainingData.getField(index2).getVocabularyVector();
 
         double distance = 0.0;
 
@@ -48,10 +58,34 @@ public class KNNModel extends MModel {
     }
 
     public int[] getKNearestNeighbors(int index, int k) {
+    return new int[0];
     }
 
     public boolean classifyKNN(Map<String, Integer> featureVector) {
         // Implement the KNN classification logic here
         return false;
+    }
+
+    public int getK() {
+        return k;
+    }
+
+    public void setK(int k) {
+        this.k = k;
+    }
+
+    public String getConfusionMatrix() {
+        // Implement the confusion matrix logic here
+        return "";
+    }
+
+    public String getAccuracy() {
+        // Implement the accuracy calculation logic here
+        return "";
+    }
+
+    public String getPrecision() {
+        // Implement the precision calculation logic here
+        return "";
     }
 }
