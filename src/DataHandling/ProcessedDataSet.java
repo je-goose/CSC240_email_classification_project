@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Collections;
+
+import static java.util.Collections.shuffle;
 
 /**
  * Project name: email_classification_project
@@ -48,6 +51,8 @@ public class ProcessedDataSet {
 
                 fields.add(entry);
             }
+            readIn.close();
+            shuffle(fields);
 
             int trainFinalIndex = (int) (fields.size() * trainProportion);
             int testFinalIndex = (int) (0.9 * fields.size());

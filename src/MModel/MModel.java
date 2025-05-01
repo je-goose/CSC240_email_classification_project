@@ -15,7 +15,5 @@ public abstract class MModel {
     protected DataSet testingData;
     protected DataSet validationData;
 
-    public abstract void train();
-
     public abstract void evaluateModel();
 }

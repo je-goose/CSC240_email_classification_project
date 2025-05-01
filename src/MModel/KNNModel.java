@@ -2,6 +2,8 @@ package MModel;
 
 import DataHandling.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -23,22 +25,19 @@ public class KNNModel extends MModel {
     }
 
     @Override
-    public void train() {
-
-    }
-
-    @Override
     public void evaluateModel() {
         // Implement the evaluation logic here
-        System.out.println("Accuracy: " + getAccuracy());
-        System.out.println("Precision: " + getPrecision());
-        System.out.println("Confusion Matrix: " + getConfusionMatrix());
+        System.out.println("Accuracy: " + "\n" + getAccuracy() + "%");
+        System.out.println("Precision: " + "\n" + getPrecision());
+        System.out.println("Recall: " + "\n" + getRecall());
+        System.out.println("Confusion Matrix: " + "\n" + getConfusionMatrix());
+
     }
 
-    public double calculateEuclideanDistance(int index1, int index2) {
-        Map<String, Integer> vector1 = trainingData.getField(index1).getVocabularyVector();
-        Map<String, Integer> vector2 = trainingData.getField(index2).getVocabularyVector();
-
+    public double calculateEuclideanDistance(Map<String,Integer> vector1, Map<String,Integer> vector2) {
+        if (vector1.isEmpty() || vector2.isEmpty()) {
+            return Double.MAX_VALUE;
+        }
         double distance = 0.0;
 
         for (String key : vector1.keySet()) {
@@ -57,13 +56,48 @@ public class KNNModel extends MModel {
         return Math.sqrt(distance);
     }
 
-    public int[] getKNearestNeighbors(int index, int k) {
-    return new int[0];
+    public int[] getKNearestNeighbors(Map<String,Integer> vector, int k) {
+        Map<Integer, Double> distances = new HashMap<>();
+        for (int i = 0; i < trainingData.size(); i++) {
+            double distance = calculateEuclideanDistance(vector, trainingData.getField(i).getVocabularyVector());
+            distances.put(i, distance);
+        }
+
+        ArrayList<Map.Entry<Integer, Double>> sortedDistances = new ArrayList<>(distances.entrySet());
+        sortedDistances.sort((a, b) -> Double.compare(a.getValue(), b.getValue()));
+
+        int[] nearestNeighbors = new int[k];
+        for (int i = 0; i < k; i++) {
+            nearestNeighbors[i] = sortedDistances.get(i).getKey();
+        }
+
+        return nearestNeighbors;
     }
 
     public boolean classifyKNN(Map<String, Integer> featureVector) {
         // Implement the KNN classification logic here
-        return false;
+        boolean classification;
+        int[] nearestNeighbors = getKNearestNeighbors(featureVector, k);
+        int trueCount = 0;
+        int falseCount = 0;
+        for (int i : nearestNeighbors) {
+            if (trainingData.getField(i).getLabel()) {
+                trueCount++;
+            } else {
+                falseCount++;
+            }
+        }
+        if (trueCount > falseCount) {
+            classification = true;
+        } else {
+            classification = trainingData.getField(nearestNeighbors[0]).getLabel();
+        }
+
+        return classification;
+    }
+
+    public DataSet getTrainingData() {
+        return this.trainingData;
     }
 
     public int getK() {
@@ -76,16 +110,80 @@ public class KNNModel extends MModel {
 
     public String getConfusionMatrix() {
         // Implement the confusion matrix logic here
-        return "";
+        int[][] confusionMatrix = new int[2][2];
+        for (int i = 0; i < validationData.size(); i++) {
+            Map<String, Integer> featureVector = validationData.getField(i).getVocabularyVector();
+            boolean actualLabel = validationData.getField(i).getLabel();
+            boolean predictedLabel = classifyKNN(featureVector);
+
+            if (actualLabel && predictedLabel) {
+                confusionMatrix[0][0]++;
+            } else if (!actualLabel && !predictedLabel) {
+                confusionMatrix[1][1]++;
+            } else if (actualLabel && !predictedLabel) {
+                confusionMatrix[0][1]++;
+            } else {
+                confusionMatrix[1][0]++;
+            }
+        }
+        return (confusionMatrix[0][0] + " " + confusionMatrix[0][1] + "\n"
+                + confusionMatrix[1][0] + " " + confusionMatrix[1][1]);
     }
 
     public String getAccuracy() {
         // Implement the accuracy calculation logic here
-        return "";
+        int correctPredictions = 0;
+        for (int i = 0; i < validationData.size(); i++) {
+            Map<String, Integer> featureVector = validationData.getField(i).getVocabularyVector();
+            boolean actualLabel = validationData.getField(i).getLabel();
+            boolean predictedLabel = classifyKNN(featureVector);
+
+            if (actualLabel == predictedLabel) {
+                correctPredictions++;
+            }
+        }
+
+        // return accuracy as a percentage
+        double accuracy = (double) correctPredictions / validationData.size() * 100;
+        return String.format("%.2f%%", accuracy);
     }
 
     public String getPrecision() {
         // Implement the precision calculation logic here
-        return "";
+        int truePositive = 0;
+        int falsePositive = 0;
+        for (int i = 0; i < validationData.size(); i++) {
+            Map<String, Integer> featureVector = validationData.getField(i).getVocabularyVector();
+            boolean actualLabel = validationData.getField(i).getLabel();
+            boolean predictedLabel = classifyKNN(featureVector);
+
+            if (actualLabel && predictedLabel) {
+                truePositive++;
+            } else if (!actualLabel && predictedLabel) {
+                falsePositive++;
+            }
+        }
+        double precision = (double) truePositive / (truePositive + falsePositive) * 100;
+        return String.format("%.2f%%", precision);
+    }
+
+    public String getRecall() {
+        int truePositive = 0;
+        int falseNegative = 0;
+
+        for (int i = 0; i < validationData.size(); i++) {
+            Map<String, Integer> featureVector = validationData.getField(i).getVocabularyVector();
+            boolean actualLabel = validationData.getField(i).getLabel();
+            boolean predictedLabel = classifyKNN(featureVector);
+
+            if (actualLabel && predictedLabel) {
+                truePositive++;
+            } else if (actualLabel && !predictedLabel) {
+                falseNegative++;
+            }
+        }
+
+        double recall = (double) truePositive / (truePositive + falseNegative) * 100;
+        return String.format("%.2f%%", recall);
     }
 }

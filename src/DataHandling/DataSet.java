@@ -3,6 +3,9 @@ package DataHandling;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Collections;
+
+import static java.util.Collections.shuffle;
 
 /**
  * Project name: email_classification_project
@@ -64,6 +67,8 @@ public class DataSet {
 
                 fields.add(entry);
             }
+            readIn.close();
+            shuffle(fields);
         } catch (Exception e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
