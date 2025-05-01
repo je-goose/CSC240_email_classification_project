@@ -49,7 +49,7 @@ public class main {
             writer.write("Accuracy: " + knnModel.getAccuracy() + "%\n");
             writer.write("Precision: " + knnModel.getPrecision() + "\n");
             writer.write("Recall: " + knnModel.getRecall() + "\n");
-            writer.write("Confusion Matrix: " + knnModel.getConfusionMatrix() + "\n");
+            writer.write("Confusion Matrix:\n" + knnModel.getConfusionMatrix() + "\n");
             System.out.println("Predictions written to " + filepathOut);
         } catch (Exception e) {
             throw new RuntimeException(e);

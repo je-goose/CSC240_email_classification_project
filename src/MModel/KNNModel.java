@@ -76,7 +76,7 @@ public class KNNModel extends MModel {
 
     public boolean classifyKNN(Map<String, Integer> featureVector) {
         // Implement the KNN classification logic here
-        boolean classification;
+        boolean classification = false;
         int[] nearestNeighbors = getKNearestNeighbors(featureVector, k);
         int trueCount = 0;
         int falseCount = 0;
@@ -87,11 +87,11 @@ public class KNNModel extends MModel {
                 falseCount++;
             }
         }
-        if (trueCount > falseCount) {
-            classification = true;
-        } else {
+        if (trueCount > falseCount) { // neighbors vote
+            classification = true; // if more true than false
+        } else if (falseCount == trueCount) { // if equal, nearest neighbor wins
             classification = trainingData.getField(nearestNeighbors[0]).getLabel();
-        }
+        } // else it falls off and evals to false
 
         return classification;
     }
