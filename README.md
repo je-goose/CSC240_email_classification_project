@@ -1,7 +1,9 @@
 # CSC240 Email Classification Project
-WCUPA SP2025
-CSC240
+
+WCUPA SP2025, CSC240
+
 Dr. Liu Cui
+
 Author: Jae Elizabeth Giesen
 
 ## Instructions
