@@ -47,7 +47,7 @@ public class DataSet {
      *
      * @param filename The name of the file to read from.
      */
-    protected DataSet(String filename) {
+    public DataSet(String filename) {
         this.fields = new ArrayList<>();
         try {
             Scanner readIn = new Scanner(new File(filename));

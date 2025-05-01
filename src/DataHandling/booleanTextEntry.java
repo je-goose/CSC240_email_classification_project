@@ -56,4 +56,19 @@ public class booleanTextEntry {
     public Map<String, Integer> getVocabularyVector() {
         return this.vocabularyVector;
     }
+
+    public int getLabelAsInt() {
+        return this.label ? 1 : 0;
+    }
+
+    public int getSizeOfVocabularyVector() {
+        return this.vocabularyVector.size();
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Label: ").append(label).append("\n");
+        sb.append("Vocabulary Vector: ").append(vocabularyVector).append("\n");
+        return sb.toString();
+    }
 }
