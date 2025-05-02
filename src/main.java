@@ -25,7 +25,7 @@ public class main {
             System.out.println("Invalid training proportion. Please enter a value between 0.0 and 1.0.");
             return;
         }
-        ProcessedDataSet processedDataSet = new ProcessedDataSet(filepathIn, 0.7);
+        ProcessedDataSet processedDataSet = new ProcessedDataSet(filepathIn, trainProportion);
         System.out.println("Enter the value of k for the KNN model:");
         int k = input.nextInt();
         if (k <= 0) {
