@@ -58,17 +58,17 @@ public class KNNModel extends MModel {
 
     public int[] getKNearestNeighbors(Map<String,Integer> vector, int k) {
         Map<Integer, Double> distances = new HashMap<>();
-        for (int i = 0; i < trainingData.size(); i++) {
+        for (int i = 0; i < trainingData.size(); i++) { // range thru training data, append to distances
             double distance = calculateEuclideanDistance(vector, trainingData.getField(i).getVocabularyVector());
             distances.put(i, distance);
         }
 
-        ArrayList<Map.Entry<Integer, Double>> sortedDistances = new ArrayList<>(distances.entrySet());
+        ArrayList<Map.Entry<Integer, Double>> sortedDistances = new ArrayList<>(distances.entrySet()); // sort distances to get nearest neighbors
         sortedDistances.sort((a, b) -> Double.compare(a.getValue(), b.getValue()));
 
-        int[] nearestNeighbors = new int[k];
+        int[] nearestNeighbors = new int[k]; // init array of size k
         for (int i = 0; i < k; i++) {
-            nearestNeighbors[i] = sortedDistances.get(i).getKey();
+            nearestNeighbors[i] = sortedDistances.get(i).getKey(); // append nearest neighbor indices to array
         }
 
         return nearestNeighbors;
@@ -77,10 +77,10 @@ public class KNNModel extends MModel {
     public boolean classifyKNN(Map<String, Integer> featureVector) {
         // Implement the KNN classification logic here
         boolean classification = false;
-        int[] nearestNeighbors = getKNearestNeighbors(featureVector, k);
+        int[] nearestNeighbors = getKNearestNeighbors(featureVector, k); // get nearest neighbors
         int trueCount = 0;
         int falseCount = 0;
-        for (int i : nearestNeighbors) {
+        for (int i : nearestNeighbors) { // iterate through nearest neighbors
             if (trainingData.getField(i).getLabel()) {
                 trueCount++;
             } else {
@@ -126,8 +126,8 @@ public class KNNModel extends MModel {
                 confusionMatrix[1][0]++;
             }
         }
-        return (confusionMatrix[0][0] + " " + confusionMatrix[0][1] + "\n"
-                + confusionMatrix[1][0] + " " + confusionMatrix[1][1]);
+        return ("\t"+confusionMatrix[0][0] + " " + confusionMatrix[0][1] +
+                "\n\t" + confusionMatrix[1][0] + " " + confusionMatrix[1][1]);
     }
 
     public String getAccuracy() {

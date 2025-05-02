@@ -41,12 +41,13 @@ public class main {
 
             for (int i = 0; i < testSet.size(); i++) {
                 boolean result = knnModel.classifyKNN(testSet.getField(i).getVocabularyVector());
-                writer.write("Entry " + i + ": " + result + "\n");
+                writer.write("Entry " + i + "\n\tPrediction: " + result + "\n");
+                writer.write("\tActual: " + testSet.getField(i).getLabel() + "\n");
                 writer.flush();
             }
             writer.write("\n");
             writer.write("Model evaluation results:\n");
-            writer.write("Accuracy: " + knnModel.getAccuracy() + "%\n");
+            writer.write("Accuracy: " + knnModel.getAccuracy() + "\n");
             writer.write("Precision: " + knnModel.getPrecision() + "\n");
             writer.write("Recall: " + knnModel.getRecall() + "\n");
             writer.write("Confusion Matrix:\n" + knnModel.getConfusionMatrix() + "\n");

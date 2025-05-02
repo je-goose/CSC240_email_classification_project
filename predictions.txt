@@ -1,607 +1,1805 @@
-Entry 0: false
-Entry 1: true
-Entry 2: false
-Entry 3: false
-Entry 4: false
-Entry 5: false
-Entry 6: true
-Entry 7: false
-Entry 8: false
-Entry 9: false
-Entry 10: false
-Entry 11: false
-Entry 12: false
-Entry 13: false
-Entry 14: false
-Entry 15: false
-Entry 16: false
-Entry 17: true
-Entry 18: false
-Entry 19: false
-Entry 20: false
-Entry 21: true
-Entry 22: false
-Entry 23: false
-Entry 24: false
-Entry 25: false
-Entry 26: false
-Entry 27: false
-Entry 28: false
-Entry 29: false
-Entry 30: false
-Entry 31: false
-Entry 32: false
-Entry 33: false
-Entry 34: false
-Entry 35: false
-Entry 36: false
-Entry 37: false
-Entry 38: false
-Entry 39: true
-Entry 40: false
-Entry 41: false
-Entry 42: false
-Entry 43: false
-Entry 44: false
-Entry 45: false
-Entry 46: false
-Entry 47: false
-Entry 48: false
-Entry 49: false
-Entry 50: true
-Entry 51: false
-Entry 52: false
-Entry 53: false
-Entry 54: false
-Entry 55: false
-Entry 56: false
-Entry 57: false
-Entry 58: false
-Entry 59: false
-Entry 60: false
-Entry 61: false
-Entry 62: false
-Entry 63: false
-Entry 64: false
-Entry 65: false
-Entry 66: false
-Entry 67: false
-Entry 68: true
-Entry 69: false
-Entry 70: false
-Entry 71: false
-Entry 72: false
-Entry 73: false
-Entry 74: false
-Entry 75: false
-Entry 76: false
-Entry 77: false
-Entry 78: false
-Entry 79: true
-Entry 80: false
-Entry 81: false
-Entry 82: false
-Entry 83: false
-Entry 84: false
-Entry 85: false
-Entry 86: false
-Entry 87: false
-Entry 88: true
-Entry 89: false
-Entry 90: false
-Entry 91: false
-Entry 92: false
-Entry 93: false
-Entry 94: false
-Entry 95: false
-Entry 96: false
-Entry 97: false
-Entry 98: false
-Entry 99: false
-Entry 100: false
-Entry 101: false
-Entry 102: false
-Entry 103: true
-Entry 104: true
-Entry 105: false
-Entry 106: true
-Entry 107: false
-Entry 108: true
-Entry 109: false
-Entry 110: true
-Entry 111: false
-Entry 112: false
-Entry 113: false
-Entry 114: false
-Entry 115: false
-Entry 116: false
-Entry 117: false
-Entry 118: false
-Entry 119: false
-Entry 120: false
-Entry 121: true
-Entry 122: false
-Entry 123: false
-Entry 124: false
-Entry 125: false
-Entry 126: false
-Entry 127: false
-Entry 128: false
-Entry 129: false
-Entry 130: false
-Entry 131: false
-Entry 132: true
-Entry 133: false
-Entry 134: false
-Entry 135: false
-Entry 136: false
-Entry 137: false
-Entry 138: true
-Entry 139: false
-Entry 140: false
-Entry 141: false
-Entry 142: false
-Entry 143: false
-Entry 144: false
-Entry 145: false
-Entry 146: false
-Entry 147: false
-Entry 148: false
-Entry 149: false
-Entry 150: false
-Entry 151: false
-Entry 152: true
-Entry 153: false
-Entry 154: false
-Entry 155: false
-Entry 156: false
-Entry 157: false
-Entry 158: false
-Entry 159: true
-Entry 160: false
-Entry 161: true
-Entry 162: true
-Entry 163: false
-Entry 164: false
-Entry 165: true
-Entry 166: false
-Entry 167: false
-Entry 168: false
-Entry 169: false
-Entry 170: false
-Entry 171: false
-Entry 172: false
-Entry 173: false
-Entry 174: false
-Entry 175: false
-Entry 176: false
-Entry 177: false
-Entry 178: false
-Entry 179: false
-Entry 180: false
-Entry 181: false
-Entry 182: false
-Entry 183: false
-Entry 184: false
-Entry 185: false
-Entry 186: false
-Entry 187: false
-Entry 188: false
-Entry 189: false
-Entry 190: false
-Entry 191: false
-Entry 192: false
-Entry 193: false
-Entry 194: false
-Entry 195: true
-Entry 196: false
-Entry 197: true
-Entry 198: false
-Entry 199: false
-Entry 200: false
-Entry 201: false
-Entry 202: false
-Entry 203: false
-Entry 204: false
-Entry 205: false
-Entry 206: false
-Entry 207: false
-Entry 208: false
-Entry 209: false
-Entry 210: false
-Entry 211: false
-Entry 212: false
-Entry 213: false
-Entry 214: false
-Entry 215: false
-Entry 216: true
-Entry 217: false
-Entry 218: false
-Entry 219: false
-Entry 220: false
-Entry 221: false
-Entry 222: false
-Entry 223: false
-Entry 224: false
-Entry 225: false
-Entry 226: false
-Entry 227: true
-Entry 228: false
-Entry 229: false
-Entry 230: false
-Entry 231: false
-Entry 232: false
-Entry 233: false
-Entry 234: false
-Entry 235: false
-Entry 236: true
-Entry 237: false
-Entry 238: false
-Entry 239: false
-Entry 240: false
-Entry 241: false
-Entry 242: false
-Entry 243: false
-Entry 244: true
-Entry 245: false
-Entry 246: false
-Entry 247: false
-Entry 248: true
-Entry 249: false
-Entry 250: false
-Entry 251: true
-Entry 252: false
-Entry 253: false
-Entry 254: true
-Entry 255: false
-Entry 256: true
-Entry 257: false
-Entry 258: false
-Entry 259: false
-Entry 260: false
-Entry 261: false
-Entry 262: false
-Entry 263: false
-Entry 264: false
-Entry 265: false
-Entry 266: false
-Entry 267: true
-Entry 268: false
-Entry 269: false
-Entry 270: false
-Entry 271: true
-Entry 272: false
-Entry 273: false
-Entry 274: false
-Entry 275: true
-Entry 276: false
-Entry 277: false
-Entry 278: false
-Entry 279: true
-Entry 280: false
-Entry 281: false
-Entry 282: false
-Entry 283: true
-Entry 284: false
-Entry 285: false
-Entry 286: true
-Entry 287: false
-Entry 288: false
-Entry 289: false
-Entry 290: false
-Entry 291: false
-Entry 292: false
-Entry 293: false
-Entry 294: false
-Entry 295: false
-Entry 296: true
-Entry 297: false
-Entry 298: false
-Entry 299: false
-Entry 300: false
-Entry 301: false
-Entry 302: false
-Entry 303: false
-Entry 304: false
-Entry 305: false
-Entry 306: false
-Entry 307: false
-Entry 308: false
-Entry 309: false
-Entry 310: true
-Entry 311: false
-Entry 312: false
-Entry 313: false
-Entry 314: false
-Entry 315: false
-Entry 316: false
-Entry 317: true
-Entry 318: false
-Entry 319: false
-Entry 320: true
-Entry 321: false
-Entry 322: false
-Entry 323: true
-Entry 324: false
-Entry 325: false
-Entry 326: true
-Entry 327: false
-Entry 328: false
-Entry 329: false
-Entry 330: true
-Entry 331: false
-Entry 332: true
-Entry 333: false
-Entry 334: false
-Entry 335: false
-Entry 336: false
-Entry 337: false
-Entry 338: false
-Entry 339: false
-Entry 340: false
-Entry 341: false
-Entry 342: false
-Entry 343: false
-Entry 344: false
-Entry 345: false
-Entry 346: false
-Entry 347: false
-Entry 348: true
-Entry 349: false
-Entry 350: false
-Entry 351: false
-Entry 352: false
-Entry 353: false
-Entry 354: false
-Entry 355: true
-Entry 356: false
-Entry 357: false
-Entry 358: false
-Entry 359: false
-Entry 360: false
-Entry 361: true
-Entry 362: false
-Entry 363: false
-Entry 364: false
-Entry 365: false
-Entry 366: false
-Entry 367: true
-Entry 368: false
-Entry 369: false
-Entry 370: false
-Entry 371: false
-Entry 372: false
-Entry 373: false
-Entry 374: false
-Entry 375: false
-Entry 376: false
-Entry 377: false
-Entry 378: false
-Entry 379: false
-Entry 380: false
-Entry 381: false
-Entry 382: false
-Entry 383: false
-Entry 384: false
-Entry 385: false
-Entry 386: true
-Entry 387: false
-Entry 388: false
-Entry 389: false
-Entry 390: false
-Entry 391: false
-Entry 392: true
-Entry 393: false
-Entry 394: false
-Entry 395: true
-Entry 396: false
-Entry 397: false
-Entry 398: false
-Entry 399: false
-Entry 400: false
-Entry 401: false
-Entry 402: false
-Entry 403: true
-Entry 404: false
-Entry 405: true
-Entry 406: false
-Entry 407: true
-Entry 408: false
-Entry 409: false
-Entry 410: true
-Entry 411: false
-Entry 412: false
-Entry 413: false
-Entry 414: false
-Entry 415: false
-Entry 416: false
-Entry 417: false
-Entry 418: true
-Entry 419: true
-Entry 420: false
-Entry 421: false
-Entry 422: false
-Entry 423: false
-Entry 424: false
-Entry 425: false
-Entry 426: false
-Entry 427: true
-Entry 428: false
-Entry 429: false
-Entry 430: false
-Entry 431: false
-Entry 432: false
-Entry 433: true
-Entry 434: false
-Entry 435: false
-Entry 436: false
-Entry 437: false
-Entry 438: false
-Entry 439: false
-Entry 440: false
-Entry 441: false
-Entry 442: false
-Entry 443: false
-Entry 444: false
-Entry 445: false
-Entry 446: false
-Entry 447: true
-Entry 448: false
-Entry 449: true
-Entry 450: false
-Entry 451: false
-Entry 452: false
-Entry 453: false
-Entry 454: false
-Entry 455: false
-Entry 456: false
-Entry 457: false
-Entry 458: false
-Entry 459: false
-Entry 460: false
-Entry 461: false
-Entry 462: false
-Entry 463: false
-Entry 464: false
-Entry 465: false
-Entry 466: false
-Entry 467: false
-Entry 468: false
-Entry 469: true
-Entry 470: false
-Entry 471: true
-Entry 472: false
-Entry 473: false
-Entry 474: false
-Entry 475: false
-Entry 476: false
-Entry 477: false
-Entry 478: false
-Entry 479: false
-Entry 480: false
-Entry 481: true
-Entry 482: true
-Entry 483: false
-Entry 484: false
-Entry 485: false
-Entry 486: false
-Entry 487: false
-Entry 488: false
-Entry 489: false
-Entry 490: true
-Entry 491: false
-Entry 492: true
-Entry 493: false
-Entry 494: false
-Entry 495: false
-Entry 496: true
-Entry 497: false
-Entry 498: false
-Entry 499: false
-Entry 500: false
-Entry 501: false
-Entry 502: false
-Entry 503: false
-Entry 504: false
-Entry 505: false
-Entry 506: false
-Entry 507: false
-Entry 508: false
-Entry 509: false
-Entry 510: false
-Entry 511: false
-Entry 512: false
-Entry 513: false
-Entry 514: true
-Entry 515: true
-Entry 516: false
-Entry 517: true
-Entry 518: true
-Entry 519: false
-Entry 520: false
-Entry 521: false
-Entry 522: false
-Entry 523: false
-Entry 524: false
-Entry 525: false
-Entry 526: false
-Entry 527: false
-Entry 528: false
-Entry 529: false
-Entry 530: false
-Entry 531: false
-Entry 532: false
-Entry 533: false
-Entry 534: false
-Entry 535: true
-Entry 536: false
-Entry 537: false
-Entry 538: true
-Entry 539: false
-Entry 540: false
-Entry 541: false
-Entry 542: false
-Entry 543: true
-Entry 544: false
-Entry 545: false
-Entry 546: false
-Entry 547: true
-Entry 548: false
-Entry 549: false
-Entry 550: false
-Entry 551: true
-Entry 552: true
-Entry 553: true
-Entry 554: false
-Entry 555: false
-Entry 556: false
-Entry 557: false
-Entry 558: false
-Entry 559: false
-Entry 560: false
-Entry 561: false
-Entry 562: false
-Entry 563: false
-Entry 564: false
-Entry 565: false
-Entry 566: false
-Entry 567: false
-Entry 568: false
-Entry 569: false
-Entry 570: false
-Entry 571: true
-Entry 572: false
-Entry 573: true
-Entry 574: false
-Entry 575: true
-Entry 576: false
-Entry 577: false
-Entry 578: false
-Entry 579: false
-Entry 580: false
-Entry 581: false
-Entry 582: false
-Entry 583: false
-Entry 584: true
-Entry 585: true
-Entry 586: false
-Entry 587: false
-Entry 588: false
-Entry 589: true
-Entry 590: true
-Entry 591: false
-Entry 592: false
-Entry 593: false
-Entry 594: false
-Entry 595: false
-Entry 596: true
-Entry 597: false
-Entry 598: false
+Entry 0
+	Prediction: false
+	Actual: false
+Entry 1
+	Prediction: false
+	Actual: false
+Entry 2
+	Prediction: false
+	Actual: false
+Entry 3
+	Prediction: false
+	Actual: false
+Entry 4
+	Prediction: false
+	Actual: false
+Entry 5
+	Prediction: false
+	Actual: false
+Entry 6
+	Prediction: false
+	Actual: false
+Entry 7
+	Prediction: false
+	Actual: false
+Entry 8
+	Prediction: false
+	Actual: false
+Entry 9
+	Prediction: false
+	Actual: false
+Entry 10
+	Prediction: false
+	Actual: false
+Entry 11
+	Prediction: false
+	Actual: false
+Entry 12
+	Prediction: true
+	Actual: true
+Entry 13
+	Prediction: false
+	Actual: true
+Entry 14
+	Prediction: false
+	Actual: false
+Entry 15
+	Prediction: false
+	Actual: false
+Entry 16
+	Prediction: false
+	Actual: false
+Entry 17
+	Prediction: false
+	Actual: false
+Entry 18
+	Prediction: false
+	Actual: false
+Entry 19
+	Prediction: false
+	Actual: false
+Entry 20
+	Prediction: true
+	Actual: true
+Entry 21
+	Prediction: false
+	Actual: false
+Entry 22
+	Prediction: false
+	Actual: false
+Entry 23
+	Prediction: false
+	Actual: false
+Entry 24
+	Prediction: false
+	Actual: false
+Entry 25
+	Prediction: false
+	Actual: false
+Entry 26
+	Prediction: false
+	Actual: false
+Entry 27
+	Prediction: false
+	Actual: false
+Entry 28
+	Prediction: false
+	Actual: false
+Entry 29
+	Prediction: false
+	Actual: false
+Entry 30
+	Prediction: false
+	Actual: false
+Entry 31
+	Prediction: false
+	Actual: false
+Entry 32
+	Prediction: false
+	Actual: false
+Entry 33
+	Prediction: true
+	Actual: true
+Entry 34
+	Prediction: false
+	Actual: false
+Entry 35
+	Prediction: false
+	Actual: false
+Entry 36
+	Prediction: false
+	Actual: false
+Entry 37
+	Prediction: false
+	Actual: false
+Entry 38
+	Prediction: true
+	Actual: true
+Entry 39
+	Prediction: false
+	Actual: false
+Entry 40
+	Prediction: false
+	Actual: false
+Entry 41
+	Prediction: false
+	Actual: false
+Entry 42
+	Prediction: true
+	Actual: true
+Entry 43
+	Prediction: true
+	Actual: true
+Entry 44
+	Prediction: true
+	Actual: true
+Entry 45
+	Prediction: false
+	Actual: false
+Entry 46
+	Prediction: false
+	Actual: false
+Entry 47
+	Prediction: false
+	Actual: false
+Entry 48
+	Prediction: false
+	Actual: false
+Entry 49
+	Prediction: false
+	Actual: false
+Entry 50
+	Prediction: false
+	Actual: false
+Entry 51
+	Prediction: false
+	Actual: true
+Entry 52
+	Prediction: false
+	Actual: false
+Entry 53
+	Prediction: true
+	Actual: true
+Entry 54
+	Prediction: false
+	Actual: false
+Entry 55
+	Prediction: false
+	Actual: false
+Entry 56
+	Prediction: true
+	Actual: true
+Entry 57
+	Prediction: false
+	Actual: false
+Entry 58
+	Prediction: false
+	Actual: false
+Entry 59
+	Prediction: false
+	Actual: false
+Entry 60
+	Prediction: true
+	Actual: true
+Entry 61
+	Prediction: false
+	Actual: false
+Entry 62
+	Prediction: false
+	Actual: false
+Entry 63
+	Prediction: false
+	Actual: false
+Entry 64
+	Prediction: false
+	Actual: false
+Entry 65
+	Prediction: false
+	Actual: false
+Entry 66
+	Prediction: false
+	Actual: false
+Entry 67
+	Prediction: false
+	Actual: false
+Entry 68
+	Prediction: false
+	Actual: false
+Entry 69
+	Prediction: false
+	Actual: false
+Entry 70
+	Prediction: false
+	Actual: false
+Entry 71
+	Prediction: false
+	Actual: false
+Entry 72
+	Prediction: false
+	Actual: false
+Entry 73
+	Prediction: false
+	Actual: false
+Entry 74
+	Prediction: true
+	Actual: true
+Entry 75
+	Prediction: false
+	Actual: false
+Entry 76
+	Prediction: false
+	Actual: false
+Entry 77
+	Prediction: false
+	Actual: false
+Entry 78
+	Prediction: false
+	Actual: false
+Entry 79
+	Prediction: false
+	Actual: false
+Entry 80
+	Prediction: false
+	Actual: false
+Entry 81
+	Prediction: true
+	Actual: true
+Entry 82
+	Prediction: false
+	Actual: false
+Entry 83
+	Prediction: false
+	Actual: false
+Entry 84
+	Prediction: false
+	Actual: false
+Entry 85
+	Prediction: false
+	Actual: false
+Entry 86
+	Prediction: false
+	Actual: false
+Entry 87
+	Prediction: false
+	Actual: false
+Entry 88
+	Prediction: false
+	Actual: false
+Entry 89
+	Prediction: true
+	Actual: true
+Entry 90
+	Prediction: false
+	Actual: false
+Entry 91
+	Prediction: false
+	Actual: false
+Entry 92
+	Prediction: false
+	Actual: false
+Entry 93
+	Prediction: false
+	Actual: false
+Entry 94
+	Prediction: false
+	Actual: false
+Entry 95
+	Prediction: false
+	Actual: true
+Entry 96
+	Prediction: false
+	Actual: false
+Entry 97
+	Prediction: false
+	Actual: false
+Entry 98
+	Prediction: false
+	Actual: false
+Entry 99
+	Prediction: false
+	Actual: false
+Entry 100
+	Prediction: false
+	Actual: false
+Entry 101
+	Prediction: false
+	Actual: false
+Entry 102
+	Prediction: false
+	Actual: false
+Entry 103
+	Prediction: false
+	Actual: false
+Entry 104
+	Prediction: false
+	Actual: false
+Entry 105
+	Prediction: false
+	Actual: false
+Entry 106
+	Prediction: false
+	Actual: false
+Entry 107
+	Prediction: false
+	Actual: false
+Entry 108
+	Prediction: false
+	Actual: false
+Entry 109
+	Prediction: false
+	Actual: false
+Entry 110
+	Prediction: false
+	Actual: true
+Entry 111
+	Prediction: false
+	Actual: false
+Entry 112
+	Prediction: false
+	Actual: false
+Entry 113
+	Prediction: true
+	Actual: true
+Entry 114
+	Prediction: false
+	Actual: false
+Entry 115
+	Prediction: true
+	Actual: true
+Entry 116
+	Prediction: false
+	Actual: false
+Entry 117
+	Prediction: false
+	Actual: true
+Entry 118
+	Prediction: false
+	Actual: false
+Entry 119
+	Prediction: false
+	Actual: false
+Entry 120
+	Prediction: false
+	Actual: false
+Entry 121
+	Prediction: false
+	Actual: false
+Entry 122
+	Prediction: false
+	Actual: false
+Entry 123
+	Prediction: false
+	Actual: false
+Entry 124
+	Prediction: true
+	Actual: true
+Entry 125
+	Prediction: false
+	Actual: false
+Entry 126
+	Prediction: false
+	Actual: false
+Entry 127
+	Prediction: false
+	Actual: false
+Entry 128
+	Prediction: false
+	Actual: false
+Entry 129
+	Prediction: false
+	Actual: false
+Entry 130
+	Prediction: false
+	Actual: false
+Entry 131
+	Prediction: false
+	Actual: false
+Entry 132
+	Prediction: false
+	Actual: false
+Entry 133
+	Prediction: false
+	Actual: false
+Entry 134
+	Prediction: true
+	Actual: true
+Entry 135
+	Prediction: false
+	Actual: false
+Entry 136
+	Prediction: true
+	Actual: true
+Entry 137
+	Prediction: false
+	Actual: false
+Entry 138
+	Prediction: false
+	Actual: false
+Entry 139
+	Prediction: false
+	Actual: false
+Entry 140
+	Prediction: false
+	Actual: false
+Entry 141
+	Prediction: true
+	Actual: true
+Entry 142
+	Prediction: false
+	Actual: false
+Entry 143
+	Prediction: false
+	Actual: false
+Entry 144
+	Prediction: false
+	Actual: false
+Entry 145
+	Prediction: false
+	Actual: true
+Entry 146
+	Prediction: false
+	Actual: false
+Entry 147
+	Prediction: false
+	Actual: false
+Entry 148
+	Prediction: false
+	Actual: false
+Entry 149
+	Prediction: false
+	Actual: false
+Entry 150
+	Prediction: false
+	Actual: false
+Entry 151
+	Prediction: false
+	Actual: false
+Entry 152
+	Prediction: false
+	Actual: false
+Entry 153
+	Prediction: false
+	Actual: false
+Entry 154
+	Prediction: false
+	Actual: false
+Entry 155
+	Prediction: false
+	Actual: false
+Entry 156
+	Prediction: false
+	Actual: false
+Entry 157
+	Prediction: false
+	Actual: false
+Entry 158
+	Prediction: true
+	Actual: true
+Entry 159
+	Prediction: false
+	Actual: false
+Entry 160
+	Prediction: false
+	Actual: false
+Entry 161
+	Prediction: false
+	Actual: false
+Entry 162
+	Prediction: false
+	Actual: false
+Entry 163
+	Prediction: false
+	Actual: false
+Entry 164
+	Prediction: false
+	Actual: false
+Entry 165
+	Prediction: false
+	Actual: false
+Entry 166
+	Prediction: false
+	Actual: false
+Entry 167
+	Prediction: false
+	Actual: false
+Entry 168
+	Prediction: false
+	Actual: false
+Entry 169
+	Prediction: false
+	Actual: false
+Entry 170
+	Prediction: false
+	Actual: false
+Entry 171
+	Prediction: false
+	Actual: false
+Entry 172
+	Prediction: false
+	Actual: false
+Entry 173
+	Prediction: false
+	Actual: false
+Entry 174
+	Prediction: false
+	Actual: false
+Entry 175
+	Prediction: false
+	Actual: false
+Entry 176
+	Prediction: false
+	Actual: false
+Entry 177
+	Prediction: false
+	Actual: false
+Entry 178
+	Prediction: false
+	Actual: false
+Entry 179
+	Prediction: false
+	Actual: false
+Entry 180
+	Prediction: false
+	Actual: false
+Entry 181
+	Prediction: false
+	Actual: false
+Entry 182
+	Prediction: false
+	Actual: false
+Entry 183
+	Prediction: false
+	Actual: false
+Entry 184
+	Prediction: false
+	Actual: false
+Entry 185
+	Prediction: false
+	Actual: false
+Entry 186
+	Prediction: false
+	Actual: false
+Entry 187
+	Prediction: false
+	Actual: true
+Entry 188
+	Prediction: true
+	Actual: true
+Entry 189
+	Prediction: false
+	Actual: false
+Entry 190
+	Prediction: false
+	Actual: false
+Entry 191
+	Prediction: false
+	Actual: false
+Entry 192
+	Prediction: false
+	Actual: false
+Entry 193
+	Prediction: true
+	Actual: true
+Entry 194
+	Prediction: false
+	Actual: false
+Entry 195
+	Prediction: false
+	Actual: false
+Entry 196
+	Prediction: false
+	Actual: false
+Entry 197
+	Prediction: false
+	Actual: false
+Entry 198
+	Prediction: false
+	Actual: false
+Entry 199
+	Prediction: false
+	Actual: false
+Entry 200
+	Prediction: false
+	Actual: false
+Entry 201
+	Prediction: false
+	Actual: false
+Entry 202
+	Prediction: false
+	Actual: false
+Entry 203
+	Prediction: false
+	Actual: false
+Entry 204
+	Prediction: false
+	Actual: false
+Entry 205
+	Prediction: false
+	Actual: false
+Entry 206
+	Prediction: false
+	Actual: false
+Entry 207
+	Prediction: false
+	Actual: false
+Entry 208
+	Prediction: false
+	Actual: false
+Entry 209
+	Prediction: false
+	Actual: false
+Entry 210
+	Prediction: false
+	Actual: false
+Entry 211
+	Prediction: false
+	Actual: false
+Entry 212
+	Prediction: true
+	Actual: true
+Entry 213
+	Prediction: false
+	Actual: false
+Entry 214
+	Prediction: false
+	Actual: false
+Entry 215
+	Prediction: false
+	Actual: false
+Entry 216
+	Prediction: false
+	Actual: false
+Entry 217
+	Prediction: false
+	Actual: true
+Entry 218
+	Prediction: false
+	Actual: false
+Entry 219
+	Prediction: true
+	Actual: true
+Entry 220
+	Prediction: false
+	Actual: false
+Entry 221
+	Prediction: false
+	Actual: false
+Entry 222
+	Prediction: false
+	Actual: false
+Entry 223
+	Prediction: false
+	Actual: false
+Entry 224
+	Prediction: false
+	Actual: true
+Entry 225
+	Prediction: false
+	Actual: false
+Entry 226
+	Prediction: false
+	Actual: false
+Entry 227
+	Prediction: false
+	Actual: false
+Entry 228
+	Prediction: true
+	Actual: true
+Entry 229
+	Prediction: false
+	Actual: false
+Entry 230
+	Prediction: false
+	Actual: false
+Entry 231
+	Prediction: false
+	Actual: false
+Entry 232
+	Prediction: false
+	Actual: false
+Entry 233
+	Prediction: false
+	Actual: false
+Entry 234
+	Prediction: false
+	Actual: false
+Entry 235
+	Prediction: false
+	Actual: false
+Entry 236
+	Prediction: false
+	Actual: false
+Entry 237
+	Prediction: false
+	Actual: false
+Entry 238
+	Prediction: false
+	Actual: true
+Entry 239
+	Prediction: false
+	Actual: true
+Entry 240
+	Prediction: false
+	Actual: false
+Entry 241
+	Prediction: false
+	Actual: false
+Entry 242
+	Prediction: false
+	Actual: false
+Entry 243
+	Prediction: false
+	Actual: false
+Entry 244
+	Prediction: false
+	Actual: false
+Entry 245
+	Prediction: true
+	Actual: true
+Entry 246
+	Prediction: false
+	Actual: false
+Entry 247
+	Prediction: false
+	Actual: false
+Entry 248
+	Prediction: false
+	Actual: false
+Entry 249
+	Prediction: false
+	Actual: false
+Entry 250
+	Prediction: false
+	Actual: false
+Entry 251
+	Prediction: true
+	Actual: true
+Entry 252
+	Prediction: false
+	Actual: false
+Entry 253
+	Prediction: false
+	Actual: false
+Entry 254
+	Prediction: false
+	Actual: false
+Entry 255
+	Prediction: false
+	Actual: false
+Entry 256
+	Prediction: false
+	Actual: false
+Entry 257
+	Prediction: false
+	Actual: false
+Entry 258
+	Prediction: false
+	Actual: false
+Entry 259
+	Prediction: false
+	Actual: false
+Entry 260
+	Prediction: true
+	Actual: true
+Entry 261
+	Prediction: false
+	Actual: false
+Entry 262
+	Prediction: false
+	Actual: false
+Entry 263
+	Prediction: true
+	Actual: true
+Entry 264
+	Prediction: false
+	Actual: false
+Entry 265
+	Prediction: false
+	Actual: false
+Entry 266
+	Prediction: true
+	Actual: true
+Entry 267
+	Prediction: false
+	Actual: false
+Entry 268
+	Prediction: false
+	Actual: false
+Entry 269
+	Prediction: false
+	Actual: false
+Entry 270
+	Prediction: false
+	Actual: false
+Entry 271
+	Prediction: false
+	Actual: false
+Entry 272
+	Prediction: true
+	Actual: true
+Entry 273
+	Prediction: false
+	Actual: false
+Entry 274
+	Prediction: false
+	Actual: false
+Entry 275
+	Prediction: false
+	Actual: false
+Entry 276
+	Prediction: false
+	Actual: false
+Entry 277
+	Prediction: false
+	Actual: false
+Entry 278
+	Prediction: true
+	Actual: true
+Entry 279
+	Prediction: false
+	Actual: false
+Entry 280
+	Prediction: true
+	Actual: true
+Entry 281
+	Prediction: false
+	Actual: false
+Entry 282
+	Prediction: false
+	Actual: false
+Entry 283
+	Prediction: false
+	Actual: false
+Entry 284
+	Prediction: true
+	Actual: true
+Entry 285
+	Prediction: false
+	Actual: false
+Entry 286
+	Prediction: false
+	Actual: false
+Entry 287
+	Prediction: false
+	Actual: false
+Entry 288
+	Prediction: false
+	Actual: false
+Entry 289
+	Prediction: true
+	Actual: true
+Entry 290
+	Prediction: false
+	Actual: false
+Entry 291
+	Prediction: false
+	Actual: false
+Entry 292
+	Prediction: false
+	Actual: false
+Entry 293
+	Prediction: false
+	Actual: false
+Entry 294
+	Prediction: false
+	Actual: false
+Entry 295
+	Prediction: false
+	Actual: false
+Entry 296
+	Prediction: false
+	Actual: false
+Entry 297
+	Prediction: true
+	Actual: true
+Entry 298
+	Prediction: false
+	Actual: false
+Entry 299
+	Prediction: false
+	Actual: false
+Entry 300
+	Prediction: false
+	Actual: false
+Entry 301
+	Prediction: true
+	Actual: true
+Entry 302
+	Prediction: false
+	Actual: false
+Entry 303
+	Prediction: false
+	Actual: false
+Entry 304
+	Prediction: false
+	Actual: false
+Entry 305
+	Prediction: true
+	Actual: true
+Entry 306
+	Prediction: false
+	Actual: false
+Entry 307
+	Prediction: false
+	Actual: false
+Entry 308
+	Prediction: false
+	Actual: false
+Entry 309
+	Prediction: true
+	Actual: true
+Entry 310
+	Prediction: false
+	Actual: false
+Entry 311
+	Prediction: false
+	Actual: false
+Entry 312
+	Prediction: false
+	Actual: false
+Entry 313
+	Prediction: false
+	Actual: false
+Entry 314
+	Prediction: false
+	Actual: false
+Entry 315
+	Prediction: false
+	Actual: false
+Entry 316
+	Prediction: false
+	Actual: false
+Entry 317
+	Prediction: false
+	Actual: false
+Entry 318
+	Prediction: false
+	Actual: false
+Entry 319
+	Prediction: false
+	Actual: false
+Entry 320
+	Prediction: false
+	Actual: false
+Entry 321
+	Prediction: false
+	Actual: true
+Entry 322
+	Prediction: true
+	Actual: true
+Entry 323
+	Prediction: false
+	Actual: false
+Entry 324
+	Prediction: false
+	Actual: false
+Entry 325
+	Prediction: false
+	Actual: true
+Entry 326
+	Prediction: false
+	Actual: false
+Entry 327
+	Prediction: false
+	Actual: false
+Entry 328
+	Prediction: false
+	Actual: false
+Entry 329
+	Prediction: false
+	Actual: false
+Entry 330
+	Prediction: false
+	Actual: false
+Entry 331
+	Prediction: false
+	Actual: false
+Entry 332
+	Prediction: false
+	Actual: false
+Entry 333
+	Prediction: true
+	Actual: true
+Entry 334
+	Prediction: true
+	Actual: true
+Entry 335
+	Prediction: false
+	Actual: false
+Entry 336
+	Prediction: false
+	Actual: false
+Entry 337
+	Prediction: false
+	Actual: false
+Entry 338
+	Prediction: false
+	Actual: false
+Entry 339
+	Prediction: false
+	Actual: false
+Entry 340
+	Prediction: false
+	Actual: false
+Entry 341
+	Prediction: false
+	Actual: false
+Entry 342
+	Prediction: false
+	Actual: true
+Entry 343
+	Prediction: false
+	Actual: false
+Entry 344
+	Prediction: false
+	Actual: false
+Entry 345
+	Prediction: false
+	Actual: false
+Entry 346
+	Prediction: true
+	Actual: true
+Entry 347
+	Prediction: false
+	Actual: false
+Entry 348
+	Prediction: true
+	Actual: true
+Entry 349
+	Prediction: false
+	Actual: false
+Entry 350
+	Prediction: false
+	Actual: false
+Entry 351
+	Prediction: false
+	Actual: true
+Entry 352
+	Prediction: false
+	Actual: false
+Entry 353
+	Prediction: false
+	Actual: false
+Entry 354
+	Prediction: false
+	Actual: false
+Entry 355
+	Prediction: true
+	Actual: true
+Entry 356
+	Prediction: false
+	Actual: true
+Entry 357
+	Prediction: true
+	Actual: true
+Entry 358
+	Prediction: false
+	Actual: false
+Entry 359
+	Prediction: false
+	Actual: false
+Entry 360
+	Prediction: false
+	Actual: false
+Entry 361
+	Prediction: false
+	Actual: false
+Entry 362
+	Prediction: true
+	Actual: true
+Entry 363
+	Prediction: false
+	Actual: false
+Entry 364
+	Prediction: false
+	Actual: true
+Entry 365
+	Prediction: false
+	Actual: false
+Entry 366
+	Prediction: false
+	Actual: false
+Entry 367
+	Prediction: false
+	Actual: true
+Entry 368
+	Prediction: true
+	Actual: true
+Entry 369
+	Prediction: false
+	Actual: false
+Entry 370
+	Prediction: false
+	Actual: false
+Entry 371
+	Prediction: false
+	Actual: false
+Entry 372
+	Prediction: false
+	Actual: false
+Entry 373
+	Prediction: false
+	Actual: false
+Entry 374
+	Prediction: false
+	Actual: false
+Entry 375
+	Prediction: false
+	Actual: false
+Entry 376
+	Prediction: false
+	Actual: false
+Entry 377
+	Prediction: false
+	Actual: false
+Entry 378
+	Prediction: false
+	Actual: false
+Entry 379
+	Prediction: false
+	Actual: false
+Entry 380
+	Prediction: false
+	Actual: false
+Entry 381
+	Prediction: false
+	Actual: false
+Entry 382
+	Prediction: false
+	Actual: false
+Entry 383
+	Prediction: false
+	Actual: false
+Entry 384
+	Prediction: false
+	Actual: false
+Entry 385
+	Prediction: false
+	Actual: false
+Entry 386
+	Prediction: false
+	Actual: false
+Entry 387
+	Prediction: false
+	Actual: false
+Entry 388
+	Prediction: false
+	Actual: false
+Entry 389
+	Prediction: false
+	Actual: false
+Entry 390
+	Prediction: false
+	Actual: false
+Entry 391
+	Prediction: false
+	Actual: false
+Entry 392
+	Prediction: false
+	Actual: false
+Entry 393
+	Prediction: true
+	Actual: false
+Entry 394
+	Prediction: true
+	Actual: true
+Entry 395
+	Prediction: false
+	Actual: false
+Entry 396
+	Prediction: false
+	Actual: false
+Entry 397
+	Prediction: false
+	Actual: false
+Entry 398
+	Prediction: false
+	Actual: false
+Entry 399
+	Prediction: false
+	Actual: false
+Entry 400
+	Prediction: false
+	Actual: false
+Entry 401
+	Prediction: true
+	Actual: true
+Entry 402
+	Prediction: true
+	Actual: true
+Entry 403
+	Prediction: false
+	Actual: false
+Entry 404
+	Prediction: false
+	Actual: false
+Entry 405
+	Prediction: false
+	Actual: false
+Entry 406
+	Prediction: false
+	Actual: false
+Entry 407
+	Prediction: true
+	Actual: true
+Entry 408
+	Prediction: false
+	Actual: false
+Entry 409
+	Prediction: false
+	Actual: false
+Entry 410
+	Prediction: false
+	Actual: false
+Entry 411
+	Prediction: false
+	Actual: false
+Entry 412
+	Prediction: false
+	Actual: false
+Entry 413
+	Prediction: false
+	Actual: false
+Entry 414
+	Prediction: false
+	Actual: false
+Entry 415
+	Prediction: false
+	Actual: false
+Entry 416
+	Prediction: false
+	Actual: false
+Entry 417
+	Prediction: false
+	Actual: false
+Entry 418
+	Prediction: false
+	Actual: false
+Entry 419
+	Prediction: true
+	Actual: true
+Entry 420
+	Prediction: true
+	Actual: true
+Entry 421
+	Prediction: false
+	Actual: false
+Entry 422
+	Prediction: false
+	Actual: false
+Entry 423
+	Prediction: false
+	Actual: false
+Entry 424
+	Prediction: false
+	Actual: false
+Entry 425
+	Prediction: false
+	Actual: false
+Entry 426
+	Prediction: false
+	Actual: false
+Entry 427
+	Prediction: false
+	Actual: true
+Entry 428
+	Prediction: false
+	Actual: false
+Entry 429
+	Prediction: false
+	Actual: false
+Entry 430
+	Prediction: false
+	Actual: false
+Entry 431
+	Prediction: false
+	Actual: false
+Entry 432
+	Prediction: false
+	Actual: false
+Entry 433
+	Prediction: false
+	Actual: false
+Entry 434
+	Prediction: false
+	Actual: false
+Entry 435
+	Prediction: false
+	Actual: false
+Entry 436
+	Prediction: true
+	Actual: true
+Entry 437
+	Prediction: false
+	Actual: true
+Entry 438
+	Prediction: false
+	Actual: false
+Entry 439
+	Prediction: false
+	Actual: false
+Entry 440
+	Prediction: true
+	Actual: true
+Entry 441
+	Prediction: false
+	Actual: false
+Entry 442
+	Prediction: false
+	Actual: true
+Entry 443
+	Prediction: true
+	Actual: true
+Entry 444
+	Prediction: false
+	Actual: false
+Entry 445
+	Prediction: false
+	Actual: false
+Entry 446
+	Prediction: false
+	Actual: false
+Entry 447
+	Prediction: false
+	Actual: false
+Entry 448
+	Prediction: false
+	Actual: false
+Entry 449
+	Prediction: false
+	Actual: false
+Entry 450
+	Prediction: false
+	Actual: false
+Entry 451
+	Prediction: false
+	Actual: false
+Entry 452
+	Prediction: false
+	Actual: false
+Entry 453
+	Prediction: false
+	Actual: false
+Entry 454
+	Prediction: false
+	Actual: false
+Entry 455
+	Prediction: true
+	Actual: true
+Entry 456
+	Prediction: false
+	Actual: false
+Entry 457
+	Prediction: false
+	Actual: false
+Entry 458
+	Prediction: false
+	Actual: false
+Entry 459
+	Prediction: false
+	Actual: false
+Entry 460
+	Prediction: false
+	Actual: false
+Entry 461
+	Prediction: false
+	Actual: false
+Entry 462
+	Prediction: false
+	Actual: false
+Entry 463
+	Prediction: false
+	Actual: false
+Entry 464
+	Prediction: true
+	Actual: true
+Entry 465
+	Prediction: false
+	Actual: false
+Entry 466
+	Prediction: true
+	Actual: true
+Entry 467
+	Prediction: false
+	Actual: false
+Entry 468
+	Prediction: false
+	Actual: false
+Entry 469
+	Prediction: true
+	Actual: true
+Entry 470
+	Prediction: false
+	Actual: false
+Entry 471
+	Prediction: false
+	Actual: false
+Entry 472
+	Prediction: false
+	Actual: false
+Entry 473
+	Prediction: false
+	Actual: false
+Entry 474
+	Prediction: false
+	Actual: false
+Entry 475
+	Prediction: false
+	Actual: false
+Entry 476
+	Prediction: false
+	Actual: false
+Entry 477
+	Prediction: false
+	Actual: false
+Entry 478
+	Prediction: false
+	Actual: true
+Entry 479
+	Prediction: false
+	Actual: false
+Entry 480
+	Prediction: false
+	Actual: false
+Entry 481
+	Prediction: false
+	Actual: false
+Entry 482
+	Prediction: true
+	Actual: true
+Entry 483
+	Prediction: false
+	Actual: false
+Entry 484
+	Prediction: false
+	Actual: false
+Entry 485
+	Prediction: false
+	Actual: false
+Entry 486
+	Prediction: false
+	Actual: false
+Entry 487
+	Prediction: false
+	Actual: false
+Entry 488
+	Prediction: false
+	Actual: false
+Entry 489
+	Prediction: false
+	Actual: false
+Entry 490
+	Prediction: false
+	Actual: false
+Entry 491
+	Prediction: false
+	Actual: false
+Entry 492
+	Prediction: true
+	Actual: true
+Entry 493
+	Prediction: false
+	Actual: false
+Entry 494
+	Prediction: false
+	Actual: true
+Entry 495
+	Prediction: false
+	Actual: false
+Entry 496
+	Prediction: false
+	Actual: false
+Entry 497
+	Prediction: false
+	Actual: false
+Entry 498
+	Prediction: false
+	Actual: true
+Entry 499
+	Prediction: false
+	Actual: false
+Entry 500
+	Prediction: true
+	Actual: true
+Entry 501
+	Prediction: false
+	Actual: false
+Entry 502
+	Prediction: false
+	Actual: false
+Entry 503
+	Prediction: false
+	Actual: false
+Entry 504
+	Prediction: false
+	Actual: false
+Entry 505
+	Prediction: false
+	Actual: false
+Entry 506
+	Prediction: false
+	Actual: false
+Entry 507
+	Prediction: false
+	Actual: false
+Entry 508
+	Prediction: false
+	Actual: false
+Entry 509
+	Prediction: false
+	Actual: true
+Entry 510
+	Prediction: true
+	Actual: true
+Entry 511
+	Prediction: false
+	Actual: false
+Entry 512
+	Prediction: false
+	Actual: false
+Entry 513
+	Prediction: false
+	Actual: false
+Entry 514
+	Prediction: false
+	Actual: false
+Entry 515
+	Prediction: false
+	Actual: false
+Entry 516
+	Prediction: false
+	Actual: false
+Entry 517
+	Prediction: false
+	Actual: true
+Entry 518
+	Prediction: false
+	Actual: false
+Entry 519
+	Prediction: false
+	Actual: false
+Entry 520
+	Prediction: false
+	Actual: false
+Entry 521
+	Prediction: true
+	Actual: true
+Entry 522
+	Prediction: false
+	Actual: false
+Entry 523
+	Prediction: false
+	Actual: false
+Entry 524
+	Prediction: false
+	Actual: false
+Entry 525
+	Prediction: false
+	Actual: false
+Entry 526
+	Prediction: false
+	Actual: false
+Entry 527
+	Prediction: false
+	Actual: false
+Entry 528
+	Prediction: false
+	Actual: false
+Entry 529
+	Prediction: true
+	Actual: true
+Entry 530
+	Prediction: false
+	Actual: false
+Entry 531
+	Prediction: false
+	Actual: false
+Entry 532
+	Prediction: false
+	Actual: false
+Entry 533
+	Prediction: false
+	Actual: false
+Entry 534
+	Prediction: false
+	Actual: false
+Entry 535
+	Prediction: false
+	Actual: true
+Entry 536
+	Prediction: false
+	Actual: false
+Entry 537
+	Prediction: false
+	Actual: false
+Entry 538
+	Prediction: false
+	Actual: false
+Entry 539
+	Prediction: false
+	Actual: false
+Entry 540
+	Prediction: false
+	Actual: false
+Entry 541
+	Prediction: false
+	Actual: false
+Entry 542
+	Prediction: false
+	Actual: false
+Entry 543
+	Prediction: false
+	Actual: false
+Entry 544
+	Prediction: false
+	Actual: false
+Entry 545
+	Prediction: false
+	Actual: false
+Entry 546
+	Prediction: false
+	Actual: false
+Entry 547
+	Prediction: false
+	Actual: false
+Entry 548
+	Prediction: true
+	Actual: true
+Entry 549
+	Prediction: true
+	Actual: true
+Entry 550
+	Prediction: false
+	Actual: false
+Entry 551
+	Prediction: false
+	Actual: false
+Entry 552
+	Prediction: false
+	Actual: false
+Entry 553
+	Prediction: false
+	Actual: false
+Entry 554
+	Prediction: false
+	Actual: false
+Entry 555
+	Prediction: false
+	Actual: false
+Entry 556
+	Prediction: true
+	Actual: true
+Entry 557
+	Prediction: false
+	Actual: true
+Entry 558
+	Prediction: true
+	Actual: true
+Entry 559
+	Prediction: false
+	Actual: false
+Entry 560
+	Prediction: true
+	Actual: true
+Entry 561
+	Prediction: false
+	Actual: false
+Entry 562
+	Prediction: false
+	Actual: false
+Entry 563
+	Prediction: false
+	Actual: false
+Entry 564
+	Prediction: true
+	Actual: true
+Entry 565
+	Prediction: false
+	Actual: false
+Entry 566
+	Prediction: false
+	Actual: false
+Entry 567
+	Prediction: false
+	Actual: false
+Entry 568
+	Prediction: false
+	Actual: false
+Entry 569
+	Prediction: false
+	Actual: false
+Entry 570
+	Prediction: false
+	Actual: false
+Entry 571
+	Prediction: false
+	Actual: false
+Entry 572
+	Prediction: true
+	Actual: true
+Entry 573
+	Prediction: false
+	Actual: false
+Entry 574
+	Prediction: false
+	Actual: false
+Entry 575
+	Prediction: false
+	Actual: false
+Entry 576
+	Prediction: true
+	Actual: true
+Entry 577
+	Prediction: false
+	Actual: false
+Entry 578
+	Prediction: false
+	Actual: false
+Entry 579
+	Prediction: false
+	Actual: false
+Entry 580
+	Prediction: false
+	Actual: true
+Entry 581
+	Prediction: false
+	Actual: false
+Entry 582
+	Prediction: false
+	Actual: false
+Entry 583
+	Prediction: false
+	Actual: false
+Entry 584
+	Prediction: false
+	Actual: false
+Entry 585
+	Prediction: true
+	Actual: true
+Entry 586
+	Prediction: false
+	Actual: false
+Entry 587
+	Prediction: false
+	Actual: false
+Entry 588
+	Prediction: false
+	Actual: false
+Entry 589
+	Prediction: false
+	Actual: false
+Entry 590
+	Prediction: true
+	Actual: true
+Entry 591
+	Prediction: false
+	Actual: false
+Entry 592
+	Prediction: false
+	Actual: false
+Entry 593
+	Prediction: false
+	Actual: false
+Entry 594
+	Prediction: false
+	Actual: false
+Entry 595
+	Prediction: false
+	Actual: true
+Entry 596
+	Prediction: false
+	Actual: false
+Entry 597
+	Prediction: false
+	Actual: false
+Entry 598
+	Prediction: false
+	Actual: false
 
 Model evaluation results:
-Accuracy: 93.31%%
-Precision: 87.27%
-Recall: 78.69%
+Accuracy: 93.98%
+Precision: 89.13%
+Recall: 75.93%
 Confusion Matrix:
-48 13
-7 231
+	41 13
+	5 240
