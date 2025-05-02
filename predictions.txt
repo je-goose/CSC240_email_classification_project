@@ -3,7 +3,7 @@ Entry 0
 	Actual: false
 Entry 1
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 2
 	Prediction: false
 	Actual: false
@@ -35,11 +35,11 @@ Entry 11
 	Prediction: false
 	Actual: false
 Entry 12
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 13
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 14
 	Prediction: false
 	Actual: false
@@ -54,13 +54,13 @@ Entry 17
 	Actual: false
 Entry 18
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 19
 	Prediction: false
 	Actual: false
 Entry 20
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 21
 	Prediction: false
 	Actual: false
@@ -71,7 +71,7 @@ Entry 23
 	Prediction: false
 	Actual: false
 Entry 24
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 25
 	Prediction: false
@@ -87,7 +87,7 @@ Entry 28
 	Actual: false
 Entry 29
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 30
 	Prediction: false
 	Actual: false
@@ -105,37 +105,37 @@ Entry 34
 	Actual: false
 Entry 35
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 36
 	Prediction: false
 	Actual: false
 Entry 37
-	Prediction: false
-	Actual: false
-Entry 38
 	Prediction: true
 	Actual: true
+Entry 38
+	Prediction: false
+	Actual: false
 Entry 39
 	Prediction: false
 	Actual: false
 Entry 40
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 41
 	Prediction: false
 	Actual: false
 Entry 42
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 43
 	Prediction: true
 	Actual: true
 Entry 44
-	Prediction: true
-	Actual: true
-Entry 45
 	Prediction: false
 	Actual: false
+Entry 45
+	Prediction: false
+	Actual: true
 Entry 46
 	Prediction: false
 	Actual: false
@@ -153,12 +153,12 @@ Entry 50
 	Actual: false
 Entry 51
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 52
 	Prediction: false
 	Actual: false
 Entry 53
-	Prediction: true
+	Prediction: false
 	Actual: true
 Entry 54
 	Prediction: false
@@ -167,8 +167,8 @@ Entry 55
 	Prediction: false
 	Actual: false
 Entry 56
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 57
 	Prediction: false
 	Actual: false
@@ -179,8 +179,8 @@ Entry 59
 	Prediction: false
 	Actual: false
 Entry 60
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 61
 	Prediction: false
 	Actual: false
@@ -188,17 +188,17 @@ Entry 62
 	Prediction: false
 	Actual: false
 Entry 63
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 64
 	Prediction: false
 	Actual: false
 Entry 65
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 66
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 67
 	Prediction: false
 	Actual: false
@@ -209,8 +209,8 @@ Entry 69
 	Prediction: false
 	Actual: false
 Entry 70
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 71
 	Prediction: false
 	Actual: false
@@ -221,11 +221,11 @@ Entry 73
 	Prediction: false
 	Actual: false
 Entry 74
-	Prediction: true
-	Actual: true
-Entry 75
 	Prediction: false
 	Actual: false
+Entry 75
+	Prediction: true
+	Actual: true
 Entry 76
 	Prediction: false
 	Actual: false
@@ -242,11 +242,11 @@ Entry 80
 	Prediction: false
 	Actual: false
 Entry 81
-	Prediction: true
-	Actual: true
-Entry 82
 	Prediction: false
 	Actual: false
+Entry 82
+	Prediction: false
+	Actual: true
 Entry 83
 	Prediction: false
 	Actual: false
@@ -254,8 +254,8 @@ Entry 84
 	Prediction: false
 	Actual: false
 Entry 85
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 86
 	Prediction: false
 	Actual: false
@@ -266,8 +266,8 @@ Entry 88
 	Prediction: false
 	Actual: false
 Entry 89
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 90
 	Prediction: false
 	Actual: false
@@ -278,14 +278,14 @@ Entry 92
 	Prediction: false
 	Actual: false
 Entry 93
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 94
 	Prediction: false
 	Actual: false
 Entry 95
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 96
 	Prediction: false
 	Actual: false
@@ -305,8 +305,8 @@ Entry 101
 	Prediction: false
 	Actual: false
 Entry 102
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 103
 	Prediction: false
 	Actual: false
@@ -329,7 +329,7 @@ Entry 109
 	Prediction: false
 	Actual: false
 Entry 110
-	Prediction: false
+	Prediction: true
 	Actual: true
 Entry 111
 	Prediction: false
@@ -338,20 +338,20 @@ Entry 112
 	Prediction: false
 	Actual: false
 Entry 113
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 114
 	Prediction: false
 	Actual: false
 Entry 115
-	Prediction: true
-	Actual: true
-Entry 116
 	Prediction: false
 	Actual: false
+Entry 116
+	Prediction: true
+	Actual: true
 Entry 117
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 118
 	Prediction: false
 	Actual: false
@@ -371,8 +371,8 @@ Entry 123
 	Prediction: false
 	Actual: false
 Entry 124
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 125
 	Prediction: false
 	Actual: false
@@ -383,8 +383,8 @@ Entry 127
 	Prediction: false
 	Actual: false
 Entry 128
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 129
 	Prediction: false
 	Actual: false
@@ -395,23 +395,23 @@ Entry 131
 	Prediction: false
 	Actual: false
 Entry 132
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 133
 	Prediction: false
 	Actual: false
 Entry 134
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 135
 	Prediction: false
 	Actual: false
 Entry 136
-	Prediction: true
-	Actual: true
-Entry 137
 	Prediction: false
 	Actual: false
+Entry 137
+	Prediction: false
+	Actual: true
 Entry 138
 	Prediction: false
 	Actual: false
@@ -419,11 +419,11 @@ Entry 139
 	Prediction: false
 	Actual: false
 Entry 140
-	Prediction: false
-	Actual: false
-Entry 141
 	Prediction: true
 	Actual: true
+Entry 141
+	Prediction: false
+	Actual: false
 Entry 142
 	Prediction: false
 	Actual: false
@@ -432,13 +432,13 @@ Entry 143
 	Actual: false
 Entry 144
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 145
 	Prediction: false
-	Actual: true
-Entry 146
-	Prediction: false
 	Actual: false
+Entry 146
+	Prediction: true
+	Actual: true
 Entry 147
 	Prediction: false
 	Actual: false
@@ -449,8 +449,8 @@ Entry 149
 	Prediction: false
 	Actual: false
 Entry 150
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 151
 	Prediction: false
 	Actual: false
@@ -465,7 +465,7 @@ Entry 154
 	Actual: false
 Entry 155
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 156
 	Prediction: false
 	Actual: false
@@ -473,8 +473,8 @@ Entry 157
 	Prediction: false
 	Actual: false
 Entry 158
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 159
 	Prediction: false
 	Actual: false
@@ -491,13 +491,13 @@ Entry 163
 	Prediction: false
 	Actual: false
 Entry 164
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 165
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 166
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 167
 	Prediction: false
@@ -509,8 +509,8 @@ Entry 169
 	Prediction: false
 	Actual: false
 Entry 170
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 171
 	Prediction: false
 	Actual: false
@@ -521,17 +521,17 @@ Entry 173
 	Prediction: false
 	Actual: false
 Entry 174
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 175
 	Prediction: false
 	Actual: false
 Entry 176
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 177
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 178
 	Prediction: false
 	Actual: false
@@ -540,7 +540,7 @@ Entry 179
 	Actual: false
 Entry 180
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 181
 	Prediction: false
 	Actual: false
@@ -558,16 +558,16 @@ Entry 185
 	Actual: false
 Entry 186
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 187
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 188
-	Prediction: true
-	Actual: true
-Entry 189
 	Prediction: false
 	Actual: false
+Entry 189
+	Prediction: true
+	Actual: true
 Entry 190
 	Prediction: false
 	Actual: false
@@ -576,10 +576,10 @@ Entry 191
 	Actual: false
 Entry 192
 	Prediction: false
-	Actual: false
-Entry 193
-	Prediction: true
 	Actual: true
+Entry 193
+	Prediction: false
+	Actual: false
 Entry 194
 	Prediction: false
 	Actual: false
@@ -602,8 +602,8 @@ Entry 200
 	Prediction: false
 	Actual: false
 Entry 201
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 202
 	Prediction: false
 	Actual: false
@@ -626,20 +626,20 @@ Entry 208
 	Prediction: false
 	Actual: false
 Entry 209
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 210
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 211
 	Prediction: false
 	Actual: false
 Entry 212
-	Prediction: true
-	Actual: true
-Entry 213
 	Prediction: false
 	Actual: false
+Entry 213
+	Prediction: true
+	Actual: true
 Entry 214
 	Prediction: false
 	Actual: false
@@ -651,13 +651,13 @@ Entry 216
 	Actual: false
 Entry 217
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 218
 	Prediction: false
 	Actual: false
 Entry 219
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 220
 	Prediction: false
 	Actual: false
@@ -671,7 +671,7 @@ Entry 223
 	Prediction: false
 	Actual: false
 Entry 224
-	Prediction: false
+	Prediction: true
 	Actual: true
 Entry 225
 	Prediction: false
@@ -680,17 +680,17 @@ Entry 226
 	Prediction: false
 	Actual: false
 Entry 227
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 228
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 229
 	Prediction: false
 	Actual: false
 Entry 230
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 231
 	Prediction: false
 	Actual: false
@@ -698,26 +698,26 @@ Entry 232
 	Prediction: false
 	Actual: false
 Entry 233
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 234
 	Prediction: false
 	Actual: false
 Entry 235
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 236
 	Prediction: false
 	Actual: false
 Entry 237
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 238
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 239
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 240
 	Prediction: false
 	Actual: false
@@ -734,7 +734,7 @@ Entry 244
 	Prediction: false
 	Actual: false
 Entry 245
-	Prediction: true
+	Prediction: false
 	Actual: true
 Entry 246
 	Prediction: false
@@ -752,8 +752,8 @@ Entry 250
 	Prediction: false
 	Actual: false
 Entry 251
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 252
 	Prediction: false
 	Actual: false
@@ -764,8 +764,8 @@ Entry 254
 	Prediction: false
 	Actual: false
 Entry 255
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 256
 	Prediction: false
 	Actual: false
@@ -779,8 +779,8 @@ Entry 259
 	Prediction: false
 	Actual: false
 Entry 260
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 261
 	Prediction: false
 	Actual: false
@@ -788,8 +788,8 @@ Entry 262
 	Prediction: false
 	Actual: false
 Entry 263
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 264
 	Prediction: false
 	Actual: false
@@ -797,26 +797,26 @@ Entry 265
 	Prediction: false
 	Actual: false
 Entry 266
-	Prediction: true
+	Prediction: false
 	Actual: true
 Entry 267
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 268
 	Prediction: false
 	Actual: false
 Entry 269
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 270
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 271
 	Prediction: false
 	Actual: false
 Entry 272
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 273
 	Prediction: false
 	Actual: false
@@ -830,17 +830,17 @@ Entry 276
 	Prediction: false
 	Actual: false
 Entry 277
-	Prediction: false
-	Actual: false
-Entry 278
 	Prediction: true
 	Actual: true
+Entry 278
+	Prediction: true
+	Actual: false
 Entry 279
 	Prediction: false
 	Actual: false
 Entry 280
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 281
 	Prediction: false
 	Actual: false
@@ -851,8 +851,8 @@ Entry 283
 	Prediction: false
 	Actual: false
 Entry 284
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 285
 	Prediction: false
 	Actual: false
@@ -866,20 +866,20 @@ Entry 288
 	Prediction: false
 	Actual: false
 Entry 289
-	Prediction: true
-	Actual: true
-Entry 290
 	Prediction: false
 	Actual: false
+Entry 290
+	Prediction: true
+	Actual: true
 Entry 291
 	Prediction: false
 	Actual: false
 Entry 292
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 293
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 294
 	Prediction: false
 	Actual: false
@@ -890,32 +890,32 @@ Entry 296
 	Prediction: false
 	Actual: false
 Entry 297
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 298
 	Prediction: false
 	Actual: false
 Entry 299
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 300
 	Prediction: false
 	Actual: false
 Entry 301
-	Prediction: true
+	Prediction: false
 	Actual: true
 Entry 302
 	Prediction: false
 	Actual: false
 Entry 303
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 304
 	Prediction: false
 	Actual: false
 Entry 305
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 306
 	Prediction: false
 	Actual: false
@@ -953,8 +953,8 @@ Entry 317
 	Prediction: false
 	Actual: false
 Entry 318
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 319
 	Prediction: false
 	Actual: false
@@ -963,34 +963,34 @@ Entry 320
 	Actual: false
 Entry 321
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 322
-	Prediction: true
-	Actual: true
-Entry 323
 	Prediction: false
 	Actual: false
+Entry 323
+	Prediction: true
+	Actual: true
 Entry 324
 	Prediction: false
 	Actual: false
 Entry 325
 	Prediction: false
-	Actual: true
-Entry 326
-	Prediction: false
 	Actual: false
+Entry 326
+	Prediction: true
+	Actual: true
 Entry 327
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 328
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 329
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 330
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 331
 	Prediction: false
 	Actual: false
@@ -998,29 +998,29 @@ Entry 332
 	Prediction: false
 	Actual: false
 Entry 333
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 334
+	Prediction: false
+	Actual: false
+Entry 335
 	Prediction: true
 	Actual: true
-Entry 335
-	Prediction: false
-	Actual: false
 Entry 336
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 337
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 338
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 339
 	Prediction: false
 	Actual: false
 Entry 340
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 341
 	Prediction: false
 	Actual: false
@@ -1043,20 +1043,20 @@ Entry 347
 	Prediction: false
 	Actual: false
 Entry 348
-	Prediction: true
-	Actual: true
-Entry 349
 	Prediction: false
 	Actual: false
+Entry 349
+	Prediction: false
+	Actual: true
 Entry 350
 	Prediction: false
 	Actual: false
 Entry 351
 	Prediction: false
-	Actual: true
-Entry 352
-	Prediction: false
 	Actual: false
+Entry 352
+	Prediction: true
+	Actual: true
 Entry 353
 	Prediction: false
 	Actual: false
@@ -1064,14 +1064,14 @@ Entry 354
 	Prediction: false
 	Actual: false
 Entry 355
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 356
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 357
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 358
 	Prediction: false
 	Actual: false
@@ -1092,7 +1092,7 @@ Entry 363
 	Actual: false
 Entry 364
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 365
 	Prediction: false
 	Actual: false
@@ -1101,10 +1101,10 @@ Entry 366
 	Actual: false
 Entry 367
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 368
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 369
 	Prediction: false
 	Actual: false
@@ -1130,16 +1130,16 @@ Entry 376
 	Prediction: false
 	Actual: false
 Entry 377
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 378
 	Prediction: false
 	Actual: false
 Entry 379
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 380
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 381
 	Prediction: false
@@ -1161,7 +1161,7 @@ Entry 386
 	Actual: false
 Entry 387
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 388
 	Prediction: false
 	Actual: false
@@ -1172,13 +1172,13 @@ Entry 390
 	Prediction: false
 	Actual: false
 Entry 391
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 392
 	Prediction: false
 	Actual: false
 Entry 393
-	Prediction: true
+	Prediction: false
 	Actual: false
 Entry 394
 	Prediction: true
@@ -1199,20 +1199,20 @@ Entry 399
 	Prediction: false
 	Actual: false
 Entry 400
+	Prediction: true
+	Actual: true
+Entry 401
 	Prediction: false
 	Actual: false
-Entry 401
-	Prediction: true
-	Actual: true
 Entry 402
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 403
 	Prediction: false
 	Actual: false
 Entry 404
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 405
 	Prediction: false
 	Actual: false
@@ -1220,8 +1220,8 @@ Entry 406
 	Prediction: false
 	Actual: false
 Entry 407
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 408
 	Prediction: false
 	Actual: false
@@ -1238,8 +1238,8 @@ Entry 412
 	Prediction: false
 	Actual: false
 Entry 413
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 414
 	Prediction: false
 	Actual: false
@@ -1256,11 +1256,11 @@ Entry 418
 	Prediction: false
 	Actual: false
 Entry 419
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 420
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 421
 	Prediction: false
 	Actual: false
@@ -1281,7 +1281,7 @@ Entry 426
 	Actual: false
 Entry 427
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 428
 	Prediction: false
 	Actual: false
@@ -1304,23 +1304,23 @@ Entry 434
 	Prediction: false
 	Actual: false
 Entry 435
-	Prediction: false
-	Actual: false
-Entry 436
 	Prediction: true
 	Actual: true
+Entry 436
+	Prediction: false
+	Actual: false
 Entry 437
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 438
 	Prediction: false
 	Actual: false
 Entry 439
-	Prediction: false
-	Actual: false
-Entry 440
 	Prediction: true
 	Actual: true
+Entry 440
+	Prediction: false
+	Actual: false
 Entry 441
 	Prediction: false
 	Actual: false
@@ -1328,11 +1328,11 @@ Entry 442
 	Prediction: false
 	Actual: true
 Entry 443
-	Prediction: true
-	Actual: true
-Entry 444
 	Prediction: false
 	Actual: false
+Entry 444
+	Prediction: true
+	Actual: true
 Entry 445
 	Prediction: false
 	Actual: false
@@ -1343,8 +1343,8 @@ Entry 447
 	Prediction: false
 	Actual: false
 Entry 448
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 449
 	Prediction: false
 	Actual: false
@@ -1364,14 +1364,14 @@ Entry 454
 	Prediction: false
 	Actual: false
 Entry 455
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 456
 	Prediction: false
 	Actual: false
 Entry 457
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 458
 	Prediction: false
 	Actual: false
@@ -1379,8 +1379,8 @@ Entry 459
 	Prediction: false
 	Actual: false
 Entry 460
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 461
 	Prediction: false
 	Actual: false
@@ -1391,14 +1391,14 @@ Entry 463
 	Prediction: false
 	Actual: false
 Entry 464
-	Prediction: true
-	Actual: true
-Entry 465
 	Prediction: false
 	Actual: false
-Entry 466
+Entry 465
 	Prediction: true
 	Actual: true
+Entry 466
+	Prediction: false
+	Actual: false
 Entry 467
 	Prediction: false
 	Actual: false
@@ -1406,8 +1406,8 @@ Entry 468
 	Prediction: false
 	Actual: false
 Entry 469
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 470
 	Prediction: false
 	Actual: false
@@ -1415,11 +1415,11 @@ Entry 471
 	Prediction: false
 	Actual: false
 Entry 472
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 473
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 474
 	Prediction: false
 	Actual: false
@@ -1431,10 +1431,10 @@ Entry 476
 	Actual: false
 Entry 477
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 478
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 479
 	Prediction: false
 	Actual: false
@@ -1445,20 +1445,20 @@ Entry 481
 	Prediction: false
 	Actual: false
 Entry 482
+	Prediction: false
+	Actual: false
+Entry 483
 	Prediction: true
 	Actual: true
-Entry 483
-	Prediction: false
-	Actual: false
 Entry 484
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 485
 	Prediction: false
 	Actual: false
 Entry 486
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 487
 	Prediction: false
 	Actual: false
@@ -1475,14 +1475,14 @@ Entry 491
 	Prediction: false
 	Actual: false
 Entry 492
-	Prediction: true
-	Actual: true
-Entry 493
 	Prediction: false
 	Actual: false
+Entry 493
+	Prediction: true
+	Actual: true
 Entry 494
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 495
 	Prediction: false
 	Actual: false
@@ -1490,16 +1490,16 @@ Entry 496
 	Prediction: false
 	Actual: false
 Entry 497
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 498
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 499
 	Prediction: false
 	Actual: false
 Entry 500
-	Prediction: true
+	Prediction: false
 	Actual: true
 Entry 501
 	Prediction: false
@@ -1511,26 +1511,26 @@ Entry 503
 	Prediction: false
 	Actual: false
 Entry 504
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 505
 	Prediction: false
 	Actual: false
 Entry 506
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 507
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 508
 	Prediction: false
 	Actual: false
 Entry 509
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 510
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 511
 	Prediction: false
 	Actual: false
@@ -1551,7 +1551,7 @@ Entry 516
 	Actual: false
 Entry 517
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 518
 	Prediction: false
 	Actual: false
@@ -1562,8 +1562,8 @@ Entry 520
 	Prediction: false
 	Actual: false
 Entry 521
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 522
 	Prediction: false
 	Actual: false
@@ -1571,14 +1571,14 @@ Entry 523
 	Prediction: false
 	Actual: false
 Entry 524
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 525
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 526
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 527
 	Prediction: false
 	Actual: false
@@ -1586,26 +1586,26 @@ Entry 528
 	Prediction: false
 	Actual: false
 Entry 529
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 530
 	Prediction: false
 	Actual: false
 Entry 531
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 532
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 533
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 534
 	Prediction: false
 	Actual: false
 Entry 535
 	Prediction: false
-	Actual: true
+	Actual: false
 Entry 536
 	Prediction: false
 	Actual: false
@@ -1643,11 +1643,11 @@ Entry 547
 	Prediction: false
 	Actual: false
 Entry 548
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 549
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 550
 	Prediction: false
 	Actual: false
@@ -1658,8 +1658,8 @@ Entry 552
 	Prediction: false
 	Actual: false
 Entry 553
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 554
 	Prediction: false
 	Actual: false
@@ -1667,11 +1667,11 @@ Entry 555
 	Prediction: false
 	Actual: false
 Entry 556
-	Prediction: true
-	Actual: true
-Entry 557
 	Prediction: false
-	Actual: true
+	Actual: false
+Entry 557
+	Prediction: true
+	Actual: false
 Entry 558
 	Prediction: true
 	Actual: true
@@ -1679,20 +1679,20 @@ Entry 559
 	Prediction: false
 	Actual: false
 Entry 560
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 561
 	Prediction: false
 	Actual: false
 Entry 562
-	Prediction: false
-	Actual: false
-Entry 563
-	Prediction: false
-	Actual: false
-Entry 564
 	Prediction: true
 	Actual: true
+Entry 563
+	Prediction: true
+	Actual: true
+Entry 564
+	Prediction: false
+	Actual: false
 Entry 565
 	Prediction: false
 	Actual: false
@@ -1715,20 +1715,20 @@ Entry 571
 	Prediction: false
 	Actual: false
 Entry 572
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 573
 	Prediction: false
 	Actual: false
 Entry 574
 	Prediction: false
-	Actual: false
+	Actual: true
 Entry 575
 	Prediction: false
 	Actual: false
 Entry 576
-	Prediction: true
-	Actual: true
+	Prediction: false
+	Actual: false
 Entry 577
 	Prediction: false
 	Actual: false
@@ -1739,8 +1739,8 @@ Entry 579
 	Prediction: false
 	Actual: false
 Entry 580
-	Prediction: false
-	Actual: true
+	Prediction: true
+	Actual: false
 Entry 581
 	Prediction: false
 	Actual: false
@@ -1754,26 +1754,26 @@ Entry 584
 	Prediction: false
 	Actual: false
 Entry 585
+	Prediction: false
+	Actual: false
+Entry 586
 	Prediction: true
 	Actual: true
-Entry 586
-	Prediction: false
-	Actual: false
 Entry 587
-	Prediction: false
-	Actual: false
+	Prediction: true
+	Actual: true
 Entry 588
 	Prediction: false
 	Actual: false
 Entry 589
-	Prediction: false
+	Prediction: true
 	Actual: false
 Entry 590
-	Prediction: true
-	Actual: true
-Entry 591
 	Prediction: false
 	Actual: false
+Entry 591
+	Prediction: true
+	Actual: true
 Entry 592
 	Prediction: false
 	Actual: false
@@ -1784,8 +1784,8 @@ Entry 594
 	Prediction: false
 	Actual: false
 Entry 595
-	Prediction: false
-	Actual: true
+	Prediction: true
+	Actual: false
 Entry 596
 	Prediction: false
 	Actual: false
@@ -1796,10 +1796,15 @@ Entry 598
 	Prediction: false
 	Actual: false
 
+Model characteristics:
+	Training set size: 599
+	Test set size: 599
+	k value: 5
+
 Model evaluation results:
-Accuracy: 93.98%
-Precision: 89.13%
-Recall: 75.93%
-Confusion Matrix:
-	41 13
-	5 240
+	Accuracy: 93.98%
+	Precision: 73.47%
+	Recall: 87.80%
+	Confusion Matrix:
+	36 5
+	13 245

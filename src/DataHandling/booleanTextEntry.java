@@ -41,6 +41,21 @@ public class booleanTextEntry {
         }
     }
 
+    public booleanTextEntry(String textBody) {
+        this.label = false;
+        this.vocabularyVector = new HashMap<>();
+
+        String[] textBodyParts = textBody.split(" ");
+
+        for (String part: textBodyParts) {
+            if (vocabularyVector.containsKey(part)) {
+                vocabularyVector.put(part, vocabularyVector.get(part) + 1);
+            } else {
+                vocabularyVector.put(part, 1);
+            }
+        }
+    }
+
     /**
      * Returns the truth value of the label.
      * @return The boolean label (true or false).

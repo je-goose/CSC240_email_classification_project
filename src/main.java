@@ -3,6 +3,8 @@ import DataHandling.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -37,36 +39,85 @@ public class main {
 
         DataSet testSet = processedDataSet.getTestSet();
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepathOut))) {
-
-            for (int i = 0; i < testSet.size(); i++) {
-                boolean result = knnModel.classifyKNN(testSet.getField(i).getVocabularyVector());
-                writer.write("Entry " + i + "\n\tPrediction: " + result + "\n");
-                writer.write("\tActual: " + testSet.getField(i).getLabel() + "\n");
-                writer.flush();
-            }
-            writer.write("\n");
-            writer.write("Model evaluation results:\n");
-            writer.write("Accuracy: " + knnModel.getAccuracy() + "\n");
-            writer.write("Precision: " + knnModel.getPrecision() + "\n");
-            writer.write("Recall: " + knnModel.getRecall() + "\n");
-            writer.write("Confusion Matrix:\n" + knnModel.getConfusionMatrix() + "\n");
-            System.out.println("Predictions written to " + filepathOut);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        System.out.println("Would you like to write the predictions and model performance to a file? (y/n)");
+        String writeToFile = input.next();
+        if (writeToFile.equalsIgnoreCase("y")) {
+            System.out.println("Writing predictions to " + filepathOut);
+            writeFile(filepathOut, processedDataSet, knnModel, k);
         }
 
         while (true) {
-            System.out.println("Enter the index of the entry you want to classify:");
-            int index = input.nextInt();
-            boolean result = knnModel.classifyKNN(testSet.getField(index).getVocabularyVector());
-            System.out.println("Classification result for entry " + index + ": " + result);
-            System.out.println("Actual label: " + testSet.getField(index).getLabel());
-            System.out.println("Do you want to classify another entry? (Y/N)");
+            System.out.println("Would you like to classify a new entry, classify an existing entry, or quit? (0,1,2)");
             String choice = input.next();
-            if (choice.equalsIgnoreCase("N")) {
+            if (choice.equals("0")) {
+                System.out.println("Enter new email text:");
+                input.nextLine(); // flush the buffer! headaches abound here
+                String newEmailText = input.nextLine();
+                queryUserNewEmail(newEmailText, knnModel);
+                continue;
+            } else if (choice.equals("1")) {
+                queryUserTrainSet(testSet, knnModel);
+                continue;
+            } else if (choice.equals("2")) {
+                System.out.println("Exiting...");
+                input.close();
                 break;
+            } else {
+                System.out.println("Invalid choice. Please enter 0, 1, or 2.");
+                continue;
             }
+
+        }
+
+        input.close();
+        System.out.println("Program terminated.");
+    }
+
+    public static void queryUserTrainSet(DataSet testSet, KNNModel knnModel) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the index of the entry you want to classify:");
+        int index = input.nextInt();
+        boolean result = knnModel.classifyKNN(testSet.getField(index).getVocabularyVector());
+        System.out.println("Classification result for entry " + index + ": " + result);
+        System.out.println("Actual label: " + testSet.getField(index).getLabel());
+    }
+
+    public static void queryUserNewEmail(String strIn, KNNModel knnModel) {
+        String[] newEmailParts = strIn.split(" ");
+        Map<String, Integer> newEmailVector = new HashMap<>();
+        for (String part : newEmailParts) {
+            if (newEmailVector.containsKey(part)) {
+                newEmailVector.put(part, newEmailVector.get(part) + 1);
+            } else {
+                newEmailVector.put(part, 1);
+            }
+        }
+        boolean result = knnModel.classifyKNN(newEmailVector);
+        System.out.println("Classification result: " + result);
+    }
+
+    public static void writeFile(String filepath, ProcessedDataSet pDS, KNNModel knnModel, int k) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath))) {
+
+            for (int i = 0; i < pDS.getTestSet().size(); i++) {
+                boolean result = knnModel.classifyKNN(pDS.getTestSet().getField(i).getVocabularyVector());
+                writer.write("Entry " + i + "\n\tPrediction: " + result + "\n");
+                writer.write("\tActual: " + pDS.getTestSet().getField(i).getLabel() + "\n");
+                writer.flush();
+            }
+            writer.write("\nModel characteristics:\n");
+            writer.write("\tTraining set size: " + pDS.getTrainingSet().size() + "\n");
+            writer.write("\tTest set size: " + pDS.getTestSet().size() + "\n");
+            writer.write("\tk value: " + k + "\n");
+
+            writer.write("\nModel evaluation results:\n");
+            writer.write("\tAccuracy: " + knnModel.getAccuracy() + "\n");
+            writer.write("\tPrecision: " + knnModel.getPrecision() + "\n");
+            writer.write("\tRecall: " + knnModel.getRecall() + "\n");
+            writer.write("\tConfusion Matrix:\n" + knnModel.getConfusionMatrix() + "\n");
+            System.out.println("Predictions written to " + filepath);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 }
